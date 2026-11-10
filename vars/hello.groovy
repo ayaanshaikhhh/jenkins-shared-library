@@ -1,3 +1,3 @@
-def hello(){
-  echo "Hello Ayaan, wass up how's Jenkins Tutos going !!! having fun ?!"
+def call() {
+    echo "Hello Ayaan, wass up how's Jenkins Tutos going !!! having fun ?!"
 }
