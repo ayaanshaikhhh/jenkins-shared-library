@@ -1,6 +1,5 @@
 def call(String dockerUsername, String image) {
-    def tag = env.BUILD_NUMBER
-    def imageName = "${dockerUsername}/${image}:${tag}"
+    def imageName = "${dockerUsername}/${image}:1.0"
 
     withCredentials([
         usernamePassword(
